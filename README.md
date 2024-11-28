@@ -1,14 +1,6 @@
-# Projet Pétrole
+# Projet Simulation et Copules
 
-Ce projet en R a été réaliser dans le cadre du cours "Économétrie des séries temporelles" de M1 IREF. L'objectif était d'effectuer des prévisions de la production annuelle de pétrole non raffiné au Canada pour les années 2022 à 2025. Pour ce faire, nous utilisons des données historiques de 1971 à 2021 pour un pays sélectionné aléatoirement parmi ceux disponibles dans un tableau. Les données sont extraites du site de l'OCDE [OCDE - Production de pétrole brut](https://data.oecd.org/energy/crude-oil-production.htm#indicator-chart).
-
-## Approche méthodologique
-
-Dans un premier temps, il a fallut déterminer si la série étuidée est issue d'un Processus Générateur de Données (PGD) stationnaire, d'un processus déterministe (DS) ou d'un processus stochastique (TS) en effectuant des racines unitaires. Cette étape était nécessaire pour identifier le nombre de différentiation requis afin d'obtenir une série stationnaire.
-
-Dans un deuxième temps, nous avons procédé à la détermination du meilleur modèle à l'aide de l'analyse de l'Auto-corrélation Étendue (EACF) et des tests post-prévision.
-
-Enfin, j'ai réalisé les prédictions et ai itéré le choix du modèle et des prédictions en incluant la valeur supplémentaire de 2022.
+Ce projet en R a été réaliser dans le cadre du cours "Application de méthodes numériques pour évaluer une intégrale" de M2 Actuariat. L'objectif était de comprendre comment appliquer des méthodes numériques pour approximativement évaluer cette intégrale sur un domaine donné.
 
 ## Accès au code et aux explications
 
